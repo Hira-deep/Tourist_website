@@ -21,7 +21,7 @@ const  MasonryImagesGallery=()=> {
         </Masonry>
      </ResponsiveMasonry>
     
-    );
+   );
 };
 
 export default MasonryImagesGallery;
