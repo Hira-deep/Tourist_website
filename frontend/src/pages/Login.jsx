@@ -8,7 +8,7 @@ import userIcon from '../assets/images/user.png'
 
 const Login = () => {
 
-    const [credentials, setCredentials] = useState({
+    const [/*credentials*/, setCredentials] = useState({
        email:undefined,
        password:undefined
     });
@@ -34,7 +34,7 @@ const Login = () => {
                             <img src={userIcon} alt=""/>
                         </div>
                         <h2>Login</h2>
-                        <Form>
+                        <Form onSubmit={handleClick}>
                             <FormGroup>
                                 <input type='text' placeholder='Email' required id='email' onChange={handleChange}/>
                             </FormGroup>

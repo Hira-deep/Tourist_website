@@ -6,7 +6,7 @@ import heroImg02 from '../assets/images/hero-img02.jpg';
 import heroVideo from '../assets/images/hero-video.mp4';
 import worldImg from '../assets/images/world.png'
 import Subtitle from './../shared/Subtitle';
-import experienceImg from '../assets/images/experience.png';
+//import experienceImg from '../assets/images/experience.png';
 
 import SearchBar from '../shared/SearchBar';
 import ServiceList from '../services/ServiceList';
@@ -79,7 +79,7 @@ const Home = () => {
     {/*====================featured tour section end ================*/}
 
 
-    {/*====================experience section started ================*/}
+    {/*====================experience section started ================}
     <section>
       <container>
         <Row>
@@ -119,7 +119,7 @@ const Home = () => {
       </container>
     </section>
    
-    {/*====================experience section end ================*/}
+    {====================experience section end ================*/}
 
     {/*====================gallery section started ================*/}
     <section>
